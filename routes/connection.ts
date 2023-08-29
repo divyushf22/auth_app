@@ -6,6 +6,8 @@ const connection = mysql.createConnection({
     password: '',
     database: 'f22db',
 });
+
+console.log("check")
 connection.connect((err)=>{
     if(err) console.log(err);
 
